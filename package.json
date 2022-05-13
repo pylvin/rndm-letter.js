@@ -1,0 +1,19 @@
+{
+  "name": "@pylvin/random-letter.js",
+  "version": "0.0.0",
+  "description": "Randomly text changing effect library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pylvin/random-letter.js.git"
+  },
+  "author": "Alvin Aliev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pylvin/random-letter.js/issues"
+  },
+  "homepage": "https://github.com/pylvin/random-letter.js#readme"
+}
