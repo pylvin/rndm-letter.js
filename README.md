@@ -20,7 +20,7 @@ yarn add rndm-letter.js
 ```
 
 ``` javascript
-import { RandomLetter } from 'random-letter'
+import { RandomLetter } from 'rndm-letter'
 
 // Symbols are optional
 const symbols = ['%', '@', '&', '#', '?', '$', '*', '1', '0'] // Default symbols
@@ -29,16 +29,16 @@ new RandomLetter(symbols, element)
 
 ```
 
-![alt text](https://raw.githubusercontent.com/pylvin/random-letter.js/master/usage.gif)
+![alt text](https://raw.githubusercontent.com/pylvin/rndm-letter.js/master/usage.gif)
 
 
 ## Changelog
 
-[Go to Github Releases](https://github.com/pylvin/random-letter.js/releases)
+[Go to Github Releases](https://github.com/pylvin/rndm-letter.js/releases)
 
 ## License
 
 Copyright (c) 2022 Alvin Aliev. Released under
-the [MIT License](https://github.com/pylvin/random-letter.js/blob/master/LICENSE).
+the [MIT License](https://github.com/pylvin/rndm-letter.js/blob/master/LICENSE).
 
 Made with &#x2764; by [Alvin](https://github.com/pylvin).
