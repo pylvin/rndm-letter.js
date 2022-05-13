@@ -1,19 +1,20 @@
 {
-  "name": "@pylvin/random-letter.js",
-  "version": "0.0.0",
-  "description": "Randomly text changing effect library",
+  "name": "rndm-letter.js",
+  "version": "1.0.0",
+  "description": "Randomly text change effect library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pylvin/random-letter.js.git"
+    "url": "git+https://github.com/pylvin/rndm-letter.js.git"
   },
   "author": "Alvin Aliev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pylvin/random-letter.js/issues"
+    "url": "https://github.com/pylvin/rndm-letter.js/issues"
   },
-  "homepage": "https://github.com/pylvin/random-letter.js#readme"
+  "homepage": "https://github.com/pylvin/rndm-letter.js#readme",
+  "keywords": ["glitch effect","text animation","letter animation"]
 }

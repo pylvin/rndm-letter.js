@@ -31,12 +31,11 @@ function RandomLetter(symbols = [], element) {
 
     //Randomly shuffled letter indexes
     this.randomized_indexes = shuffle([...Array(this.letters.length).keys()])
-    console.log(this.randomized_indexes)
 
     // Init
     this.letters.forEach((letter, indx) => {
         if (letter !== ' ') {
-            this.letters[indx] = this.symbols[Math.floor(Math.random() * this.symbols.length)]
+            this.letters[indx] = this.symbols[Math.floor(Math.random() * (this.symbols.length + 1))]
         }
     })
     this.element.textContent = this.letters.join('')
@@ -47,9 +46,9 @@ function RandomLetter(symbols = [], element) {
             var promises = []
             for (var indx = 0; indx < rl.randomized_indexes.length; indx++) {
                 const letter_indx = rl.randomized_indexes[indx]
-                for (var i = 0; i < 5; i++) {
+                for (var i = 0; i < 2; i++) {
                     const promise = new Promise((resolve1, reject1) => {
-                        const interval = Math.ceil(Math.random() * 30) * 100
+                        const interval = Math.ceil(Math.random() * 10) * 100
                         setTimeout(() => {
                             if (rl.letters[letter_indx] !== ' ') {
                                 rl.letters[letter_indx] = rl.symbols[Math.floor(Math.random() * rl.symbols.length)]
@@ -94,5 +93,4 @@ function RandomLetter(symbols = [], element) {
         decrypt()
     })
 }
-
 module.exports.RandomLetter = RandomLetter
